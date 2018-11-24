@@ -1,8 +1,6 @@
 def using_include(array, element)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
-if array.include? == ("element")
-  element1= ("wow")
-  element2= ("Tardis")
+if array.include? == "#{element}"
   true
 else
 false
